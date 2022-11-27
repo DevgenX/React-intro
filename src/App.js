@@ -36,7 +36,7 @@ const App = () => {
     <h1 className="app-title">Monster Rolodex</h1>
     <SearchBox 
     className='monsters-search-box'
-    handleInputChange={handleInputChange}
+    onChange={handleInputChange}
      placeholder='search monsters' 
      />
     {
